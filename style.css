@@ -1,0 +1,401 @@
+*   {
+    margin: 0;
+    font-family: Arial;
+    border: border-box;
+}
+
+body {
+    background-color: white;
+}
+
+.navbar {
+    height: 60px;
+    background-color: white;
+    color: gray;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.nav-logo {
+    height: 60px;
+    width: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo {
+    background-image: url("Nexcent_logo.png");
+    width: 150px;
+    height: 30px;
+    background-size: contain;   
+    background-repeat: no-repeat;
+    background-position: center; 
+}
+
+.nav-home {
+    margin-right: 70px;
+}
+
+.nav-navigate {
+    display: flex;
+    gap: 20px; 
+    margin-right: 20px; 
+    justify-content: flex-start;
+}
+
+.nav-navigate a, .nav-home a {
+    text-decoration: none;
+    color: #000; 
+    font-size: 16px;
+}
+
+.nav-navigate a:hover, .nav-home a:hover {
+    text-decoration: underline;
+}
+
+button {
+    background-color: #4BAF50;
+    color: #fff;
+    margin-left: 0; 
+    padding: 8px 16px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+}
+
+button:hover {
+    border: 2px solid #263238;
+}
+
+
+.container {
+    display: flex;
+    align-items: center;
+}
+
+.panel {
+    background-color: #F4F7FA;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 500px;
+    width: 1440px;
+}
+
+.hero-msg {
+    text-align: left    ; 
+    margin-right: 100px;
+    margin-left: 100px;
+}
+
+.line-one {
+    font-size: 3rem;
+}
+
+.line-two {
+    font-size: 3rem;
+    color: #4BAF50;
+    margin-bottom: 20px;
+}
+
+.hero-msg p {
+    margin-bottom: 20px;
+    font-size: 0.75rem;
+}
+
+p {
+    color: #8c8c8c;
+}
+
+.hero-img {
+    background-image: url("DJCSI Technical Tasks Illustration.png");
+    height: 500px;
+    width: 400px;
+    margin-right: 200px;
+    background-size: contain;   
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.msg-one {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.msg-one-line-one {
+    margin-top: 10px;
+}
+
+.msg-one-line-three {
+    margin-top: 10px;
+    margin-bottom: 20px;
+    font-size: 0.9rem;
+}
+
+.box {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: flex-start;
+}
+
+.box-one, .box-two, .box-three {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center; 
+    border: 1px solid #ccc;
+    padding: 20px;
+    background-color: #fff; 
+    box-shadow: 0 4px 8px rgba(255, 255, 255, 0.2);
+    border-radius: 5px;
+    flex: 1;
+    max-width: 300px;
+    min-height: 200px;
+}
+
+.logo-one {
+    background-image: url("DJCSI Technical Tasks Icon.png");
+    height: 40px;
+    width: 40px;
+    background-size: contain;   
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+#box-one-p, #box-two-p, #box-three-p {
+    margin-top: 5px;
+}
+
+.logo-two {
+    background-image: url("DJCSI Technical Tasks Icon (1).png");
+    height: 40px;
+    width: 40px;
+    background-size: contain;   
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.logo-three {
+    background-image: url("DJCSI Technical Tasks Icon (2).png");
+    height: 40px;
+    width: 40px;
+    background-size: contain;   
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.middle-box {
+    display: flex;
+    align-items: center;
+    text-align: left;
+    height: 500px;
+    width: 1200px;
+    padding: 20px;
+}
+
+#image {
+    background-image: url(rafiki.png);
+    height: 450px;
+    width: 450px;
+    background-size: contain;   
+    background-repeat: no-repeat;
+    background-position: center;
+    margin-right: 100px;
+}
+
+#writing {
+    width: 500px;
+}
+
+#writing p {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.bottom-text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 20px;
+}
+
+.bottom-text p {
+    margin-top: 10px;
+}
+
+.bottom-boxes {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-top: 0px;
+}
+
+.streamlined-safeguarding-img {
+    background-image: url("DJCSI Technical Tasks Image 18.png");
+}
+
+.safeguarding-responsibilities-img {
+    background-image: url("DJCSI Technical Tasks Image 19.png");
+}
+
+.membership-model-img {
+    background-image: url("DJCSI Technical Tasks Image 20.png");
+}
+
+.safeguarding-responsibilities-img, .streamlined-safeguarding-img, .membership-model-img {
+    height: 300px;
+    width: 300px;
+    background-size: contain;   
+    background-repeat: no-repeat;
+    background-position: center;
+    position: relative;
+}
+
+.streamlined-safeguarding-text, .safeguarding-responsibilities-text, .membership-model-text {
+    background-color: #F4F7FA;
+    font-size: 0.5rem;
+    width: 200px;
+    padding: 5px;
+    border-radius: 5px;
+    color: #8c8c8c;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    position: absolute;
+    top: 89%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 2;
+}
+
+.streamlined-safeguarding-text a, .safeguarding-responsibilities-text a, .membership-model-text a {
+    color: #4BAF50;
+    text-decoration: none;
+    font-size: 0.8rem;
+    font-weight: bold;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.readmore i {
+    font-size: 12px;
+}
+
+footer {
+    background-color: #263238;
+    height: 400px;
+    width: 100%;
+    padding: 20px;
+    margin-top: 50px;
+    color: #fff;
+    display: flex;
+    justify-content: space-evenly; 
+    align-items: flex-start;
+    gap: 20px;
+    box-sizing: border-box;
+}
+
+.footer-box-1, .footer-box-two, .footer-box-three {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start; 
+    gap: 10px; 
+}
+
+.footer-logo {
+    background-image: url("Nexcent_logo_white.png");
+    height: 100px;
+    width: 100px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.icons {
+    display: flex; 
+    justify-content: flex-start;
+    gap: 10px;
+}
+
+.icons i {
+    color: #fff;
+    font-size: 20px;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+ul h2 {
+    margin-bottom: 10px;
+}
+
+.footer-box-two a,
+.footer-box-three a {
+    display: block;
+    text-decoration: none;
+    color: #fff;
+    margin-bottom: 5px; 
+}
+
+.footer-box-two a:hover,
+.footer-box-three a:hover {
+    text-decoration: underline;
+}
+
+.footer-box-four {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
+}
+
+.email {
+    position: relative;
+}
+
+.input-container {
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+
+.input-container input {
+    padding: 10px;
+    padding-right: 40px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 250px;
+    background-color: #8c8c8c;
+    color: #fff;
+}
+
+.input-container i {
+    position: absolute;
+    right: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+    color: #fff;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+input::placeholder {
+    color: #fff;
+}
